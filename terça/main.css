@@ -1,0 +1,308 @@
+.navbar {
+
+  height: 45px;
+  width: 100%;
+  background-color: #FEF6F4;
+  font-size: 39px;
+}
+
+.lista-nav {
+
+  color: rgb(146, 42, 42);
+  display: flex;
+
+}
+
+.lista-nav li {
+
+  margin-left: 200px;
+  margin-top: 3px;
+}
+
+li:hover {
+
+  background-color: rgb(97, 104, 110);
+  cursor: pointer;
+}
+
+/*  tamanhos dos conteudos */
+.pat1,
+.pat2,
+.pat3,
+.pat4,
+.pat5,
+.pat6 {
+
+  height: 600px;
+  width: 100%;
+  background-color: lightslategrey;
+
+}
+
+/* parte 1 */
+.pat1 {
+
+  background-color: lightsteelblue;
+  background-image: url(./rato.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+/* buttan */
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.fourth {
+  border-color: #772828;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #753030 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #7a3030 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  margin-left: 700px;
+}
+
+.fourth:hover {
+  background-position: 0;
+}
+
+
+.pat1 h1 {
+
+  text-align: center;
+  color: rgb(133, 42, 42);
+  padding: 50px;
+  font-size: 7rem;
+  font-family: 'MonteCarlo', cursive;
+}
+
+
+
+/* Parte 2 */
+.pat2 {
+  display: flex;
+  background-color: #FEF6F4;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+
+
+.pt2 {
+
+  width: 50%;
+  height: 100%;
+  background-color: #D9B6A2;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.pr2 {
+
+  width: 50%;
+  height: 100%;
+  background-color: #D9B6A2;
+}
+
+#titulo1 {
+
+  font-size: 58px;
+  color: #772828;
+}
+
+#titulo2 {
+
+  font-size: 45px;
+  color: #772828;
+
+}
+
+
+/* parte 3 */
+.pat3 {
+
+  background-color: #FEF6F4;
+}
+
+
+.linha {
+  background-color: #FEF6F4;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+
+.card {
+  height: 300px;
+  width: 250px;
+
+  background-color: whitesmoke;
+
+
+}
+
+.card-img {
+  height: 60%;
+  width: 100%;
+
+  background-color: rgb(110, 65, 65);
+  background-image: url(./5463v09_3_.jpg);
+  background-position: cover;
+
+  border-top-right-radius: 20px;
+}
+
+.card-text {
+  height: 40%;
+  width: 100%;
+  background-color: #6664644d;
+
+  border-bottom-left-radius: 20px;
+
+  text-align: center;
+  padding: 10px;
+
+}
+
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px black;
+}
+
+
+
+/* Parte 4 */
+.pat4 {
+
+  padding: 100px;
+  background-color: #FEF6F4;
+  margin: 20px;
+  text-align: center;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px black;
+}
+
+th,
+td {
+
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px #C06274;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'MonteCarlo', cursive;
+  ;
+}
+
+th {
+  font-size: 34px;
+}
+
+tr:hover {
+  background-color: #C06274;
+
+}
+
+.pat5 {
+
+
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+  font-size: 29px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #FEF6F4;
+
+
+
+}
+
+.pat6 {
+
+  background-color: #FEF6F4;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+
+
+
+}
